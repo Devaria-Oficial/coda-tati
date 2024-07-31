@@ -1,0 +1,29 @@
+Desenvolva uma landing page para venda de cursos online utilizando React.js para o frontend e Node.js com Express para o backend. A landing page deve ter as seguintes características:
+
+1. *Critérios de Design:*
+   - A interface deve seguir o manual de identidade visual da empresa.
+   - Utilizar bibliotecas públicas de UI, como Material-UI ou Bootstrap.
+   - A página deve ser acessível conforme WCAG 2.1 nível AA e responsiva para dispositivos móveis, tablets e desktops.
+
+2. *Requisitos Claros:*
+   - A landing page deve permitir visualizar informações detalhadas sobre os cursos oferecidos.
+   - Incluir seções de depoimentos de alunos e perguntas frequentes (FAQ).
+   - Formulário de inscrição para os cursos com nome, e-mail e telefone.
+   - Suporte para 10.000 visitantes simultâneos com tempo de carregamento não superior a 2 segundos.
+   - Conformidade com GDPR para proteção de dados dos usuários.
+
+3. *Estrutura Lógica:*
+   - Carregar a página com cabeçalho, seções de cursos, depoimentos, FAQ e rodapé.
+   - Exibir informações detalhadas sobre cada curso.
+   - Exibir depoimentos de alunos anteriores.
+   - Solicitar nome, e-mail e telefone no formulário de inscrição, validar e enviar os dados para o backend.
+   - Exibir uma lista de perguntas frequentes com respostas.
+
+4. *Tecnologia Específica:*
+   - Utilizar JavaScript para interatividade e validação.
+   - Adotar React.js para construção da interface de usuário.
+   - Utilizar Axios para comunicação HTTP e bibliotecas como Material-UI ou Bootstrap para estilização.
+
+5. *Padrões de Design & Arquitetura:*
+   - Utilizar o padrão SSR para estruturar a aplicação.
+   - Implementar a interface usando componentes React.
